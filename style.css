@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  background: #cb6ce6;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 78vh;
+  background: url(assets/PDXkcc.png) bottom center no-repeat;
+  background-size: 100%; 
+}
