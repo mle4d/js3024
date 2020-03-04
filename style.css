@@ -123,11 +123,12 @@ nav a:hover {
 .moments {
   justify-content: center;
   width: 45%;
-  height: 60%;
+  height: 400px;
   text-align: block;
   border: solid 8px #52c3be;
   border-radius: 20px;
   padding: 10px;
+  margin: 20px;
   text-align: center;
   overflow: scroll;
   font-family: 'Montserrat', sans-serif;
@@ -139,13 +140,20 @@ nav a:hover {
   text-align: center;
 }
 #piper {
-  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
 }
 h3 {
-  text-align: left;
+  text-align: center;
+  text-decoration: underline #52c3be;
   font-family: 'ABeeZee', sans-serif;
   color: #fcc70e;
 }
 p {
   font-family: 'ABeeZee', sans-serif;
+}
+#boost {
+  padding-top: 10px;
+  border-radius: 20px;
 }
