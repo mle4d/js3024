@@ -116,3 +116,8 @@ img {
   width: 50%;
   border-radius: 20px;
 }
+legend {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+}
