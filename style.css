@@ -104,7 +104,6 @@ nav a:hover {
 .intro {
   justify-content: center;
   width: 90%;
-  text-align: block;
   border: solid 8px #fcc70e;
   border-radius: 20px;
   padding: 10px;
@@ -147,6 +146,6 @@ h3 {
   font-family: 'ABeeZee', sans-serif;
   color: #fcc70e;
 }
-p {
-  font-family: 'Montserrat', sans-serif;
+#first {
+  font-family: 'ABeeZee', sans-serif;
 }
