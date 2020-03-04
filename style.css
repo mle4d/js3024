@@ -101,7 +101,7 @@ nav a {
 nav a:hover {
   color: #fcc70e;
 }
-#intro {
+.intro {
   justify-content: center;
   width: 90%;
   text-align: block;
@@ -110,14 +110,43 @@ nav a:hover {
   padding: 10px;
   text-align: justify;
 }
-img {
+#pic1 {
   margin-top: 20px;
   padding: 10px;
   width: 50%;
   border-radius: 20px;
 }
-legend {
+#welcome {
   color: #52c3be;
   font-family: 'ABeeZee', sans-serif;
   font-size: 2em;
+}
+.moments {
+  justify-content: center;
+  width: 45%;
+  height: 60%;
+  text-align: block;
+  border: solid 8px #52c3be;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  overflow: scroll;
+  font-family: 'Montserrat', sans-serif;
+}
+#moment {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+#piper {
+  padding: 5px;
+}
+h3 {
+  text-align: left;
+  font-family: 'ABeeZee', sans-serif;
+  color: #fcc70e;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
 }
