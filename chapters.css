@@ -6,15 +6,22 @@ header {
 .chapters {
   justify-content: center;
   width: 30%;
+  height: 75vh;
   border: solid 8px #fcc70e;
   border-radius: 20px;
   text-align: justify;
   margin-right: 3%; 
+  overflow: scroll;
 }
 #chapterHeader {
   color: #52c3be;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
+  text-align: center;
+}
+div {
+  border-top: solid 8px #52c3be;
+  border-bottom: solid 8px #52c3be;
 }
 h3 {
   text-align: center;
@@ -25,12 +32,9 @@ p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
-a {
-  color: #fcc70e;
-}
 iframe {
   border: solid 8px #52c3be;
   border-radius: 10px;
   width: 65%;
-  height: 60vh;
+  height: 70vh;
 }
