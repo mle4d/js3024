@@ -3,10 +3,30 @@ header {
   background: url(assets/banner3.png) center center no-repeat;
   background-size: 100%; 
 }
+.chapters {
+  justify-content: center;
+  width: 30%;
+  border: solid 8px #fcc70e;
+  border-radius: 20px;
+  text-align: justify;
+}
+#chapterHeader {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'ABeeZee', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 iframe {
   border: solid 8px #52c3be;
   border-radius: 10px;
   width: 640px;
-  width: 70%;
+  width: 65%;
   height: 60vh;
 }
