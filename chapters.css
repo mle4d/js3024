@@ -9,6 +9,7 @@ header {
   border: solid 8px #fcc70e;
   border-radius: 20px;
   text-align: justify;
+  margin-right: 3%; 
 }
 #chapterHeader {
   color: #52c3be;
@@ -22,11 +23,14 @@ h3 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+a {
+  color: #fcc70e;
 }
 iframe {
   border: solid 8px #52c3be;
   border-radius: 10px;
-  width: 640px;
   width: 65%;
   height: 60vh;
 }
