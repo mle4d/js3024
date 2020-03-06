@@ -21,6 +21,18 @@ header {
   width: 70%;
   border-radius: 20px;
 }
+.why {
+  justify-content: center;
+  width: 90%;
+  border: solid 8px #cb6ce6;
+  border-radius: 20px;
+  text-align: justify;
+}
+#whyHeader {
+  color: #fcc70e;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+}
 .how {
   justify-content: center;
   width: 90%;
