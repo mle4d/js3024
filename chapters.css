@@ -3,3 +3,10 @@ header {
   background: url(assets/banner3.png) center center no-repeat;
   background-size: 100%; 
 }
+iframe {
+  border: solid 8px #52c3be;
+  border-radius: 10px;
+  width: 640px;
+  width: 70%;
+  height: 60vh;
+}
