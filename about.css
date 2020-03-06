@@ -21,3 +21,15 @@ header {
   width: 70%;
   border-radius: 20px;
 }
+.how {
+  justify-content: center;
+  width: 90%;
+  border: solid 8px #52c3be;
+  border-radius: 20px;
+  text-align: justify;
+}
+#howHeader {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+}
