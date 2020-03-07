@@ -3,31 +3,40 @@ header {
   background: url(assets/banner2.png) center center no-repeat;
   background-size: 100%; 
 }
+.content {
+  height: 145vh;
+}
 .join {
   border: solid 8px #fcc70e;
   border-radius: 20px;
-  width: 90%;
+  width: 95%;
+  height: 35%;
   margin-bottom: 3%;
   text-align: justify;
+  overflow: scroll;
 }
 #join {
   color: #cb6ce6;
   font-family: 'ABeeZee', sans-serif;
   font-size: 2em;
   text-align: center;
+  padding-top: .5%;
 }
 .turquoise {
   border: solid 8px #52c3be;
   border-radius: 20px;
   width: 33%;
-  margin: 1%;
+  height: 60%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  overflow: scroll;
 }
 #turquoise {
   color: #52c3be;
   font-family: 'ABeeZee', sans-serif;
   font-size: 1.3em;
   text-align: center;
+  padding-top: 1.5%;
 }
 h4 {
   margin-top: -1%;
@@ -40,14 +49,17 @@ h4 {
   border: solid 8px #cb6ce6;
   border-radius: 20px;
   width: 33%;
-  margin: 1%;
+  height: 60%;
+  margin-left: 2%;
   text-align: center;
+  overflow: scroll;
 }
 #amethyst {
   color: #cb6ce6;
   font-family: 'ABeeZee', sans-serif;
   font-size: 1.3em;
   text-align: center;
+  padding-top: 1.5%;
 }
 #am {
   color: #cb6ce6;
@@ -57,13 +69,16 @@ h4 {
   border: solid 8px #fcc70e;
   border-radius: 20px;
   width: 100%;
+  height: 60%;
   text-align: center;
+  overflow: scroll;
 }
 #email {
   color: #52c3be;
   font-family: 'ABeeZee', sans-serif;
   font-size: 1.3em;
   text-align: center;
+  padding-top: 2%;
 }
 form {
   color: #cb6ce6;
@@ -84,14 +99,19 @@ select {
 }
 #hackydiv {
   width: 25%;
+  height: 60%;
   text-align: center;
+  margin-left: 2%;
 }
 p {
-  margin: 2%;
+  margin-top: 10%;
   padding: 3%;
   border: solid 8px #52c3be;
   border-radius: 20px;
   width: 100%;
+  height: 36%;
+  font-size: 1em;
+  overflow: scroll;
 }
 a {
   color: #52c3be;
