@@ -7,6 +7,8 @@ header {
   border: solid 8px #fcc70e;
   border-radius: 20px;
   width: 90%;
+  margin-bottom: 3%;
+  text-align: justify;
 }
 #join {
   color: #cb6ce6;
@@ -19,6 +21,7 @@ header {
   border-radius: 20px;
   width: 33%;
   margin: 1%;
+  text-align: center;
 }
 #turquoise {
   color: #52c3be;
@@ -26,11 +29,19 @@ header {
   font-size: 1.3em;
   text-align: center;
 }
+h4 {
+  margin-top: -1%;
+}
+#tq {
+  color: #52c3be;
+  text-align: center;
+}
 .amethyst {
   border: solid 8px #cb6ce6;
   border-radius: 20px;
   width: 33%;
   margin: 1%;
+  text-align: center;
 }
 #amethyst {
   color: #cb6ce6;
@@ -38,16 +49,26 @@ header {
   font-size: 1.3em;
   text-align: center;
 }
+#am {
+  color: #cb6ce6;
+  text-align: center;
+}
 .email {
   border: solid 8px #fcc70e;
   border-radius: 20px;
-  width: 25%;
+  width: 100%;
   text-align: center;
 }
 #email {
   color: #52c3be;
   font-family: 'ABeeZee', sans-serif;
   font-size: 1.3em;
+  text-align: center;
+}
+form {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.1em;
   text-align: center;
 }
 input {
@@ -59,6 +80,19 @@ select {
 }
 #message {
   width: 90%;
-  height: 20vh;
   border: solid 2px #cb6ce6;
+}
+#hackydiv {
+  width: 25%;
+  text-align: center;
+}
+p {
+  margin: 2%;
+  padding: 3%;
+  border: solid 8px #52c3be;
+  border-radius: 20px;
+  width: 100%;
+}
+a {
+  color: #52c3be;
 }
