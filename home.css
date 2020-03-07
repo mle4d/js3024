@@ -6,9 +6,11 @@ header {
 .intro {
   justify-content: center;
   width: 60%;
+  height: 50%;
   border: solid 8px #fcc70e;
   border-radius: 20px;
   text-align: justify;
+  overflow: scroll;
 }
 #pic1 {
   margin-top: 5px;
@@ -23,7 +25,7 @@ header {
 }
 .calendar {
   width: 30%;
-  height: 59vh;
+  height: 48.5%;
   border-radius: 20px;
   margin-left: 10px;
   border: solid 8px #cb6ce6;
@@ -31,18 +33,18 @@ header {
 #qv {
   color: #fcc70e;
   font-family: 'ABeeZee', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.7vw;
   text-align: center;
 }
 iframe {
   width: 100%;
-  height: 95%;
+  height: 93%;
   text-align: center;
 }
 .moments {
   justify-content: center;
   width: 44%;
-  height: 400px;
+  height: 45%;
   border: solid 8px #52c3be;
   border-radius: 20px;
   padding: 10px;
@@ -86,7 +88,7 @@ p {
 .tweets {
   justify-content: center;
   width: 44%;
-  height: 400px;
+  height: 45%;
   border: solid 8px #52c3be;
   border-radius: 20px;
   text-align: center;
