@@ -5,7 +5,7 @@ header {
 }
 .content {
   height: 90vh;
-  max-width: 90%;
+  max-width: 80%;
 }
 .chapters {
   justify-content: center;
