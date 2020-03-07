@@ -3,3 +3,27 @@ header {
   background: url(assets/banner2.png) center center no-repeat;
   background-size: 100%; 
 }
+.help {
+  border: solid 8px #fcc70e;
+  border-radius: 20px;
+  width: 70%;
+  margin-bottom: 3%;
+  text-align: justify;
+}
+#help {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+  text-align: left;
+}
+h3 {
+  color: #cb6ce6;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 1.5em;
+}
+ol {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
