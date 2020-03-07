@@ -28,7 +28,7 @@ header {
   border: solid 8px #cb6ce6;
   border-radius: 20px;
   text-align: justify;
-  /* font-family: 'Montserrat', sans-serif; */
+  margin-bottom: 3%;
 }
 #whyHeader {
   color: #fcc70e;
