@@ -28,14 +28,22 @@ header {
   border: solid 8px #cb6ce6;
   border-radius: 20px;
   text-align: justify;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 #whyHeader {
   color: #fcc70e;
   font-family: 'ABeeZee', sans-serif;
   font-size: 2em;
 }
+ol {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 p {
   text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  color: #52c3be;
+  font-size: 1.2em;
 }
 u {
   color: #fcc70e;
@@ -50,9 +58,17 @@ li {
   border: solid 8px #52c3be;
   border-radius: 20px;
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 #howHeader {
   color: #cb6ce6;
   font-family: 'ABeeZee', sans-serif;
   font-size: 2em;
+}
+a {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+}
+a:hover {
+  color: #fcc70e;
 }
