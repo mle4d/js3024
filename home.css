@@ -55,9 +55,10 @@ iframe {
 }
 #moment {
   color: #cb6ce6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-size: 1.8em;
   text-align: center;
+  padding-top: .5%;
 }
 #piper {
   width: 90%;
@@ -97,11 +98,18 @@ p {
 }
 #twittertitle {
   color: #cb6ce6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-size: 1.8em;
   text-align: center;
-  margin-top: 80px;
+  padding-top: .8%;
 }
 .tweets img {
   width: 100%;
+}
+a {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+}
+a:hover {
+  color: #cb6ce6;
 }
