@@ -33,8 +33,9 @@ p {
   text-align: center;
 }
 iframe {
+  margin-top: 2%;
   border: solid 8px #52c3be;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 65%;
-  height: 70vh;
+  height: 72.5vh;
 }
