@@ -3,3 +3,62 @@ header {
   background: url(assets/banner2.png) center center no-repeat;
   background-size: 100%; 
 }
+.join {
+  border: solid 8px #fcc70e;
+  border-radius: 20px;
+  width: 90%;
+}
+#join {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+.turquoise {
+  border: solid 8px #52c3be;
+  border-radius: 20px;
+  width: 33%;
+  margin: 1%;
+}
+#turquoise {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+.amethyst {
+  border: solid 8px #cb6ce6;
+  border-radius: 20px;
+  width: 33%;
+  margin: 1%;
+}
+#amethyst {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+.email {
+  border: solid 8px #fcc70e;
+  border-radius: 20px;
+  width: 25%;
+  text-align: center;
+}
+#email {
+  color: #52c3be;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+input {
+  border: solid 2px #cb6ce6;
+  width: 90%;
+}
+select {
+  width: 90%;
+}
+#message {
+  width: 90%;
+  height: 20vh;
+  border: solid 2px #cb6ce6;
+}
