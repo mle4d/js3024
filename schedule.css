@@ -4,17 +4,18 @@ header {
   background-size: 100%; 
 }
 .content {
+  max-width: 90%;
   height: 90vh;
 }
 .main {
-  border:solid 4px #52c3be; 
+  border:solid 8px #52c3be; 
   border-radius: 15px;
   width:60%;
   height:100%;
   margin-right: 3%;
 }
 .events {
-  border:solid 4px #fcc70e; 
+  border:solid 8px #fcc70e; 
   border-radius: 15px;
   width:30%;
   height:100%;
