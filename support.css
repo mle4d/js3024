@@ -6,7 +6,7 @@ header {
 .help {
   border: solid 8px #fcc70e;
   border-radius: 20px;
-  width: 70%;
+  width: 100%;
   margin-bottom: 3%;
   text-align: justify;
 }
@@ -29,4 +29,56 @@ ol {
 }
 u {
   color: #cb6ce6;
+}
+
+.email {
+  border: solid 8px #52c3be;
+  border-radius: 20px;
+  width: 100%;
+  /* text-align: center; */
+}
+#email {
+  color: #fcc70e;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+.div1 {
+  width: 32%;
+  margin: 1%;
+}
+.div2 {
+  width: 32%;
+  color: #52c3be;
+  margin: 1%;
+}
+.div3 {
+  width: 32%;
+}
+.colordiv {
+  color: #fcc70e;
+}
+form {
+  color: #cb6ce6;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+input {
+  border: solid 2px #cb6ce6;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  
+}
+textarea {
+  width: 100%;
+  height: 37vh;
+}
+#button {
+  width: 30%;
+  margin: 1%;
+  float: right;
 }
