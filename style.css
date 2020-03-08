@@ -101,7 +101,8 @@ nav a:hover {
 }
 @media (max-width: 800px) {
   html {
-  height: cover;
+  background-size: auto;
+  height: 100%;
   }
   .content {
     max-width: 100%;
