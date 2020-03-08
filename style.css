@@ -36,6 +36,12 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+@media {
+  .content {
+    max-width: 100%;
+    border: none;
+  }
+}
 body.fixed-nav .content {
   transform: scale(1);
 }
