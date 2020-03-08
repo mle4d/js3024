@@ -132,5 +132,6 @@ nav a:hover {
   legend {
     background-color: #ffffff;
     border-radius: 20px;
+    font-size: 1em;
   }
 }
