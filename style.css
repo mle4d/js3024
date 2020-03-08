@@ -122,5 +122,11 @@ nav a:hover {
     font-size: .3em;
     width: 15%;
   }
-
+  fieldset {
+    background-color: #ffffff;
+  }
+  legend {
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
 }
