@@ -36,12 +36,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-@media (min-width: 600px) {
-  .content {
-    max-width: 100%;
-    border: none;
-  }
-}
+
 body.fixed-nav .content {
   transform: scale(1);
 }
@@ -103,4 +98,14 @@ nav a {
 }
 nav a:hover {
   color: #fcc70e;
+}
+@media (max-width: 800px) {
+  html {
+    background-image: none;
+  }
+  .content {
+    max-width: 100%;
+    border: none;
+    background-image: url(assets/bg.png);
+  }
 }
