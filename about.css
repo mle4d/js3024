@@ -84,3 +84,8 @@ a {
 a:hover {
   color: #fcc70e;
 }
+@media (max-width: 800px) {
+  legend {
+     font-size: 1em;
+  }
+}
