@@ -143,4 +143,14 @@ form {
   width: 100%;
   height: 30%;
 }
+textarea {
+  width: 100%;
+  height: 10%;
+}
+input {
+  height: 1%;
+}
+select {
+  height: 1%;
+}
 }
