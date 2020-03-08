@@ -32,9 +32,10 @@ header {
   }
   .main {
     width: 100%;
+    height: 60%;
   }
   .events {
-    width: 100%;
-    height: 20%;
+    width: 80%;
+    height: 40%;
   }
 }
