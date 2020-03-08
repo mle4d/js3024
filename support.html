@@ -48,30 +48,28 @@
       <form action="mailto:joinPDXKCC@thissite.com" method="post" enctype="text/plain">
         
         <div class="div1">
-        Your Name:
-        <input type="text" name="name" size="1"><br>
-        E-mail Address:
-        <input type="text" name="mail"><br>
-        <div class="colordiv"><u style="color: #fcc70e;">Way to Help:</u>
-        <input type="radio" name="donate">Donation
-        <input type="radio" name="sponsor">Sponsorship
-        <input type="radio" name="volunteer">Volunteer</div>
+        <p class="column1">Your Name:</p>
+        <input class="column1" type="text" name="name"><br>
+        <p class="column1">E-mail Address:</p>
+        <input class="column1" type="text" name="mail">
+        
       </div>
       <div class="div2">
-        <u style="color: #52c3be;">Chapter to help:</u>
-        <input type="radio" name="All">All/any chapters
-        <input type="radio" name="NW">NW Chapter
-        <input type="radio" name="ST">St. Johns Chapter
-          <input type="radio" name="HW">Hazelwood Chapter
-          <input type="radio" name="HH">Healy Heights Chapter
-          <input type="radio" name="LH">Laurelhurst Chapter
-          <input id="reset" type="reset" value="Reset Form">
-          </div>
+          <p class="column1">Way to Help:</p>
+          <select class="column1">
+            <option>Donation</option>
+            <option>Sponosorship</option>
+            <option>Volunteer</option>
+          </select><br>
+        <p class="column2">Chapter to Help:</p>
+        <input class="column2" type="text" name="chapter">
+        </div>
         <div class="div3">
-        Message:<br>
-        <textarea type="text" name="comment" id="message"></textarea>
-        <input id="button" type="submit" value="Send">
-      </div>
+          Message:
+          <textarea type="text" name="comment" id="message"></textarea>
+          <input id="button" type="submit" value="Send">
+          <input class="column2" id="reset" type="reset" value="Reset Form">
+        </div>
       </form>
     </fieldset>
 </div>
