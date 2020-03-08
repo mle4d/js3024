@@ -83,7 +83,7 @@ li.name {
 }
 
 .fixed-nav li.name {
-  max-width: 900px;
+  max-width: 25%;
 }
 .fixed-nav li.name:hover {
   color: #52c3be;
@@ -100,12 +100,27 @@ nav a:hover {
   color: #fcc70e;
 }
 @media (max-width: 800px) {
-  html {
-    background-image: none;
-  }
   .content {
     max-width: 100%;
+    height: auto;
     border: none;
-    background-image: url(assets/bg.png);
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
   }
+  nav a {
+    padding: 0px;
+  }
+  li.name {
+    font-weight: none;
+    font-size: 10px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav li {
+    font-size: .3em;
+    width: 15%;
+  }
+
 }
