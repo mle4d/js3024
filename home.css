@@ -127,6 +127,8 @@ a:hover {
   .moments {
     width: 100%;
     height: 40%;
+    padding: 0px;
+    margin: 0px;
   }
   .tweets {
     width: 100%;
