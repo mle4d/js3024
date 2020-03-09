@@ -91,4 +91,7 @@ a:hover {
   legend {
      font-size: 1em;
   }
+  ol {
+  text-align: right;
+  }
 }
