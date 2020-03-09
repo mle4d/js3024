@@ -67,7 +67,7 @@ li {
   height: 18%;
   border: solid 8px #52c3be;
   border-radius: 20px;
-  text-align: justify;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
   overflow: scroll;
 }
