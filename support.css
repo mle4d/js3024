@@ -1,5 +1,5 @@
 header {
-  height: 34vh;
+  height: 30vmin;
   background: url(assets/banner2.png) center center no-repeat;
   background-size: 100%; 
 }
@@ -14,6 +14,7 @@ header {
   margin-bottom: 1%;
   text-align: justify;
   overflow: scroll;
+  font-size: 2.4vmin;
 }
 #help {
   color: #52c3be;
@@ -42,6 +43,7 @@ u {
   width: 90%;
   height: 20%;
   overflow: scroll;
+  font-size: 2.4vmin;
 }
 #email {
   color: #fcc70e;
@@ -68,7 +70,7 @@ u {
 form {
   color: #cb6ce6;
   font-family: 'ABeeZee', sans-serif;
-  font-size: 1.1em;
+  ffont-size: 2.4vmin;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
