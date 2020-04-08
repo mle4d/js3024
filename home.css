@@ -1,5 +1,5 @@
 header {
-  height: 78vh;
+  height: 63vmin;
   background: url(assets/PDXkcc.png) bottom center no-repeat;
   background-size: 100%; 
 }
@@ -11,6 +11,7 @@ header {
   border-radius: 20px;
   text-align: justify;
   overflow: scroll;
+  font-size: 2.5vmin;
 }
 #pic1 {
   margin-top: 5px;
