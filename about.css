@@ -1,5 +1,5 @@
 header {
-  height: 34vh;
+  height: 30vmin;
   background: url(assets/banner.png) center center no-repeat;
   background-size: 100%; 
 }
@@ -15,6 +15,7 @@ header {
   text-align: justify;
   margin-bottom: 3%;
   overflow-x: scroll;
+  font-size: 2.4vmin;
 }
 #aboutHeader {
   color: #52c3be;
@@ -37,6 +38,7 @@ header {
   text-align: justify;
   margin-bottom: 3%;
   overflow: scroll;
+  font-size: 2.4vmin;
 }
 #whyHeader {
   color: #fcc70e;
@@ -70,6 +72,7 @@ li {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   overflow: scroll;
+  font-size: 2.4vmin;
 }
 #howHeader {
   color: #cb6ce6;
